@@ -6,6 +6,7 @@
 body,
 html {
   width: 100%;
+  height:100%;
 }
 
 .main-header {
@@ -55,4 +56,18 @@ html {
   background-image:url('../img/slider/bg-slider1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* main container */
+
+.main-container {
+  width:80%;
+  height:100%;
+  background-color:green;
+  margin:0 auto;
+}
+
+/* top banner */
+.top-banner {
+  
 }
