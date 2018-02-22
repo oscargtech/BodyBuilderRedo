@@ -99,3 +99,12 @@ html {
   float:right;
   background-color:orange;
 }
+
+/* content top banner */
+.bg-content-top {
+  width:100%;
+  height:350px;
+  background-color:#000;
+  background-image:url('../img/bg-content-top.jpg');
+  background-size:cover;
+}
