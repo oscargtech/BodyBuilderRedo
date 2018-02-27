@@ -51,6 +51,7 @@ html {
 /* main slider */
 
 .main-slider {
+  margin-top: 40px;
   width:100%;
   height:380px;
   background-image:url('../img/slider/bg-slider1.jpg');
@@ -62,13 +63,14 @@ html {
 
 .main-container {
   width:80%;
-  height:100%;
-  background-color:green;
+  height:auto;
+  overflow: auto;
   margin:0 auto;
 }
 
 /* top banner */
 .top-banner {
+  margin: 20px auto;
   width:100%;
   height:130px;
   background-image:url('../img/sm-top-banner.png');
@@ -84,20 +86,18 @@ html {
 }
 
 .content {
-  width:70%;
-  padding:1% 2.5%;
+  width:72.5%;
+  padding:0px 2.5% 0px 0px;
   height:100%;
   float:left;
-  background-color:purple;
 }
 
 /* sidebar */
 .right-sidebar {
-  width:20%;
-  padding:1% 2.5%;
-  height:100%;
+  width:25%;
+  /* padding: 1% 2.5%; */
+  height:1000px;
   float:right;
-  background-color:orange;
 }
 
 /* content top banner */
@@ -114,6 +114,8 @@ html {
   width:100%;
   height:100%;
   background-image:url('../img/bg-sidebar-banner.jpeg');
+  background-repeat: no-repeat;
+
 }
 
 /* article banner */
@@ -162,4 +164,12 @@ span.pill {
 }
 .sub-article-banner > img {
   width:100%;
+}
+/* main footer*/
+.footer-container{
+  display:block;
+  clear: both;
+  width: 100%;
+  height: 90px;
+  background-color: #ccc;
 }
