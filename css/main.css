@@ -6,7 +6,7 @@
 body,
 html {
   width: 100%;
-  height:100%;
+  height: 100%;
 }
 
 .main-header {
@@ -16,12 +16,13 @@ html {
 }
 
 .header-inner {
-  width:80%;
-  height:80px;
-  margin:0 auto;
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
 }
+
 .app-logo {
-  float:left;
+  float: left;
   display: block;
   width: 80px;
   height: 80px;
@@ -38,138 +39,158 @@ html {
 
 .main-nav ul li {
   display: inline-block;
-  line-height:5;
+  line-height: 5;
 }
 
 .main-nav ul li a {
   text-decoration: none;
   padding: 10px 15px;
-  color:#FFF;
+  color: #FFF;
   font-weight: bold;
 }
+
 
 /* main slider */
 
 .main-slider {
-  margin-top:40px;
-  width:100%;
-  height:380px;
-  background-image:url('../img/slider/bg-slider1.jpg');
+  margin-top: 40px;
+  width: 100%;
+  height: 380px;
+  background-image: url('../img/slider/bg-slider1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+
 /* main container */
 
 .main-container {
-  width:80%;
-  height:auto;
-  overflow:auto;
-  margin:0 auto;
+  width: 80%;
+  height: auto;
+  overflow: auto;
+  margin: 0 auto;
 }
 
+
 /* top banner */
+
 .top-banner {
   margin: 20px auto;
-  width:100%;
-  height:130px;
-  background-image:url('../img/sm-top-banner.png');
-  background-repeat:no-repeat;
+  width: 100%;
+  height: 130px;
+  background-image: url('../img/sm-top-banner.png');
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
+
 /* main content container */
+
 .main-content {
-  height:100%;
-  width:100%;
- 
+  height: 100%;
+  width: 100%;
 }
 
 .content {
-  width:72.5%;
-  padding:0px 2.5% 0px 0px;
-  height:100%;
-  float:left;
+  width: 72.5%;
+  padding: 0px 2.5% 0px 0px;
+  height: 100%;
+  float: left;
 }
+
 
 /* sidebar */
+
 .right-sidebar {
-  width:25%;
+  width: 25%;
   /*padding:1% 2.5%;*/
   height: 1000px;
-  float:right;
+  float: right;
 }
+
 
 /* content top banner */
+
 .bg-content-top {
-  width:100%;
-  height:350px;
-  background-color:#000;
-  background-image:url('../img/bg-content-top.jpg');
-  background-size:cover;
+  width: 100%;
+  height: 350px;
+  background-color: #000;
+  background-image: url('../img/bg-content-top.jpg');
+  background-size: cover;
 }
+
 
 /* sidebar banner */
+
 .sidebar-banner {
-  width:100%;
-  height:100%;
-  background-repeat:no-repeat;
-  background-image:url('../img/bg-sidebar-banner.jpeg');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/bg-sidebar-banner.jpeg');
 }
+
 
 /* article banner */
+
 .article-banner {
-  width:100%;
-  height:450px;
-  background-color:blue;
-  background-image:url('../img/bg-section-img1.jpg');
-  background-repeat:no-repeat;
-  background-size:cover;
+  width: 100%;
+  height: 450px;
+  background-color: blue;
+  background-image: url('../img/bg-section-img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 /* sub articles */
-.sub-articles {
 
-}
+.sub-articles {}
 
-.sub-articles ul {
-
-}
+.sub-articles ul {}
 
 .sub-articles ul li {
-  width:30%;
-  margin:20px 4% 20px 0px;
-  height:300px;
+  width: 30%;
+  margin: 20px 4% 20px 0px;
+  height: 300px;
   list-style-type: none;
-  display:inline-block;
+  display: inline-block;
 }
 
 .sub-articles ul li:last-child {
-  margin-right:none;
-  margin-right:0px;
+  margin-right: none;
+  margin-right: 0px;
 }
 
 span.pill {
-  display:block;
-  color:#00aeef;
-  font-weight:bold;
+  display: block;
+  color: #00aeef;
+  font-weight: bold;
   text-transform: uppercase;
-  margin:15px 0px;
+  margin: 15px 0px;
 }
 
 .sub-articles h2 {
-  font-size:22px;
-  margin:10px 0px;
-}
-.sub-article-banner > img {
-  width:100%;
+  font-size: 22px;
+  margin: 10px 0px;
 }
 
+.sub-article-banner>img {
+  width: 100%;
+}
+
+
 /* main footer */
+
 .footer-container {
-  display:block;
-  clear:both;
-  width:100%;
-  height:90px;
-  background-color:#CCC;
-} 
+  display: block;
+  clear: both;
+  width: 100%;
+  height: 90px;
+  background-color: #CCC;
+}
+
+.footer-container > span {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
