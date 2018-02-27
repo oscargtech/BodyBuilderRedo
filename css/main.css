@@ -9,6 +9,9 @@ html {
   height: 100%;
 }
 
+hgroup {
+  margin: 25px 0px 20px;
+}
 .main-header {
   width: 100%;
   height: 80px;
@@ -151,9 +154,10 @@ html {
 .sub-articles ul li {
   width: 30%;
   margin: 20px 4% 20px 0px;
-  height: 300px;
+  min-height: 400px;
   list-style-type: none;
   display: inline-block;
+  overflow:auto;
 }
 
 .sub-articles ul li:last-child {
@@ -191,7 +195,7 @@ span.pill {
 
 .footer-container>span {
   display: block;
-  margin: 0 auto;
+  margin: 0px auto 20px;
   text-align: center;
 }
 
@@ -217,4 +221,10 @@ span.pill {
 .footer-links li a {
   text-decoration: none;
   font-weight: bold;
+}
+
+.footer-text {
+  text-align:center;
+  margin:10px auto 20px;
+  max-width:60%;
 }
